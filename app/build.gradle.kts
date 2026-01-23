@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.advanced_bus_route_planner"
-    compileSdk = 34  // ✅ FIXED: Remove the block, just use = 34
+    compileSdk = 36  // ✅ UPDATED: Required by androidx dependencies
 
     defaultConfig {
         applicationId = "com.example.advanced_bus_route_planner"
         minSdk = 24
-        targetSdk = 34  // ✅ FIXED: Changed from 36 to 34
+        targetSdk = 34  // Keep at 34 for stability (doesn't need to match compileSdk)
         versionCode = 1
         versionName = "1.0"
 
@@ -34,19 +34,16 @@ android {
 }
 
 dependencies {
-    // Existing dependencies
+    // Existing AndroidX dependencies
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
-    // ✅ ADD FIREBASE DEPENDENCIES (using BOM for version management)
+    // ✅ Firebase dependencies (using BOM for version management)
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-firestore")
-
-    // Remove this if you don't need Firebase AI
-    // implementation(libs.firebase.ai)
 
     // Testing
     testImplementation(libs.junit)

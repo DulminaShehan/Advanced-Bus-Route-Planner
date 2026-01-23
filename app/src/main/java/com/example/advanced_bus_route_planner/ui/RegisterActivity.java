@@ -14,8 +14,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.advancedbusrouteplanner.R;
-import com.example.advancedbusrouteplanner.model.User;
+import com.example.advanced_bus_route_planner.R;
+import com.example.advanced_bus_route_planner.model.User;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
