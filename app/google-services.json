@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329309948607",
+    "project_id": "advancedbusrouteplanner",
+    "storage_bucket": "advancedbusrouteplanner.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329309948607:android:bf4664d671d188c728140a",
+        "android_client_info": {
+          "package_name": "com.example.advanced_bus_route_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_pfSvu0x_WIz391ekz961qtmsBn8rXss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

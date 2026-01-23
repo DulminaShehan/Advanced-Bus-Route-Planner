@@ -13,6 +13,17 @@
         android:text="Advanced Bus Route Planner"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <!-- Welcome Message (NEW) -->
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="16sp"
+        android:textColor="#1976D2"
         android:layout_marginBottom="30dp"
         android:layout_gravity="center"/>
 
